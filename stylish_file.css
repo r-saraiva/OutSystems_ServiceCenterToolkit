@@ -1,0 +1,210 @@
+html * {
+	outline: none;
+}
+
+/* Service Center header */
+form > table[id^="wtTable"] > tbody > tr:first-child
+, form > div.aspNetHidden + table > tbody > tr:first-child {
+	height: 0;
+}
+
+form > table[id^="wtTable"] > tbody > tr:first-child > td
+, form > div.aspNetHidden + table > tbody > tr:first-child > td {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+table#wtHeaderBlock_wtTable2 > tbody > tr:last-child
+, table#wtHeaderBlock_wtTable2 > tbody > tr:nth-last-child(2) {
+	display: none;
+}
+
+/* User info & Search */
+
+.Header_Top table.Header_Greeting {
+    text-align: right;
+}
+
+.Header_Greeting input {
+    min-width: 150px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* ^^ User info & Search ^^ */
+
+/* Service Center body */
+form > table[id^="wtTable"] > tbody > tr:nth-child(2) > td.Body
+, form > div.aspNetHidden + table > tbody > tr:nth-child(2) > td.Body
+, td:not(.Body) td.PageBody {
+    padding-top: 125px;
+}
+
+.Body td.PageBody {
+    padding-right: 260px;
+}
+
+.Body td.SideBar {
+	position: fixed;
+    top: 92px;
+    right: 0;
+    height: 100%;
+    width: 240px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+/* ^^ Service Center body ^^ */
+
+td.PageBody .Heading1 {
+	position: relative;
+}
+
+.Form_Body > table {
+    border: 1px solid #AAA;
+    border-collapse: collapse;
+}
+
+table#MessagesTable {
+    border-collapse: collapse;
+}
+
+/* Controls */
+input.Button,
+input.List_Button {
+    height: 32px;
+    padding: 5px 15px;
+    margin: 0 5px;
+    font-size: 12px;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    background: #ECECEC;
+    -webkit-box-shadow: inset 0px -2px 0px #AAA;
+    -moz-box-shadow: inset 0px -2px 0px #AAA;
+    box-shadow: inset 0px -2px 0px #AAA;
+    cursor: pointer;
+}
+
+input.Button:hover,
+input.Button:focus,
+input.List_Button:hover,
+input.List_Button:focus{
+	-webkit-box-shadow: inset 0px 1px 2px #AAA;
+    -moz-box-shadow: inset 0px 1px 2px #AAA;
+    box-shadow: inset 0px 1px 2px #AAA;
+}
+
+input.Button:focus,
+input.List_Button:focus {
+    outline: 1px solid #777;
+    outline-offset: -4px;
+}
+
+input.List_Button[value="Publish"] {
+    background-color: #54b14e;
+    color: #FFF;
+    border-color: #56a956;
+    -webkit-box-shadow: inset 0px -2px 0px #3b773b;
+    -moz-box-shadow: inset 0px -2px 0px #3b773b;
+    box-shadow: inset 0px -2px 0px #3b773b;
+}
+
+input.List_Button[value="Publish"]:hover,
+input.List_Button[value="Publish"]:focus {
+    -webkit-box-shadow: inset 0px 1px 2px #3b773b;
+    -moz-box-shadow: inset 0px 1px 2px #3b773b;
+    box-shadow: inset 0px 1px 2px #3b773b;
+}
+
+input.List_Button[value="Publish"]:focus {
+	outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+/* ^^ Controls ^^ */
+
+/***************************
+ *   Tampermonkey Styles   *
+ ***************************/
+div.ServiceCenterTools {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    height: 34px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    cursor: default;
+}
+
+div.ServiceCenterTools:not(.Empty):hover {
+	height: auto;
+}
+
+div.ServiceCenterTools.Empty {
+	background-color: #eaeaea;
+    box-shadow: none;
+}
+
+div.ServiceCenterTools > .ToolsCaption {
+	padding: 10px;
+    line-height: 1.4em;
+}
+
+div.ServiceCenterTools > .sctOptions {
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+div.ServiceCenterTools > .sctOptions:empty {
+    display: none;
+}
+
+div.ServiceCenterTools > .sctOptions a {
+    display: block;
+    padding: 10px;
+    color: #2970CC;
+    background-color: transparent;
+    text-decoration: none;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+div.ServiceCenterTools > .sctOptions a:hover {
+	color: #333;
+    background-color: #eaeaea;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.2),inset -1px -1px 1px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.2),inset -1px -1px 1px rgba(0,0,0,.2);
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.2),inset -1px -1px 1px rgba(0,0,0,.2);
+}
+/*
+ * Controls
+ */
+
+/* toggleMessageCompactView */
+.FakeWinDialog #MessagesTable.CompactView tr {
+    height: 40px;
+}
+
+.FakeWinDialog #MessagesTable.CompactView tr > td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.FakeWinDialog #MessagesTable.CompactView tr:not(:last-child) {
+	display: none;
+}
+/* ^^ toggleMessageCompactView ^^ */
+
+tr.HasError > td {
+    background-color: rgba(216, 19, 19, 0.23);
+}
