@@ -57,7 +57,10 @@ form > table[id^="wtTable"] > tbody > tr:nth-child(2) > td.Body
     width: 240px;
     padding-left: 20px;
     padding-right: 10px;
-    background-color: transparent;
+}
+
+.Footer_Text {
+    padding: 10px 270px 10px 30px;
 }
 /* ^^ Service Center body ^^ */
 
