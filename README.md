@@ -7,7 +7,7 @@ Use this files with the following Chrome extensions:
 
 ## Configurations
 ### Stylish
-In **Applies to** confimguration, select **URLs matching the regexp** and paste this:
+In **Applies to** configuration, select **URLs matching the regexp** and paste this:
 
 - ^((?:http:\/\/)|(?:https:\/\/))[^\/]+\/ServiceCenter\/.*
 
