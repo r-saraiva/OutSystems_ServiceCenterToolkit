@@ -3,7 +3,7 @@
 // @namespace    ServiceCenterToolkit
 // @version      0.1
 // @description  Set of tools to work with OutSystems Service Center
-// @author       ricardo.saraiva@moxie.pt
+// @author       silvasaraiva@gmail.com
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.min.js
 // @require      http://code.jquery.com/jquery-latest.js
