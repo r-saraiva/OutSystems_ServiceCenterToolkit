@@ -1,6 +1,11 @@
 # OutSystems_ServiceCenterToolkit
 A set of tools to enable a better experience when using OutSystems Service Center.
 
+Main features:
+- Error highlight on eSpace/Solution publish
+- fixed header
+- bigger buttons (better hit area)
+
 Use this files with the following Chrome extensions:
 - [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
