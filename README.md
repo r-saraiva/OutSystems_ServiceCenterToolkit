@@ -2,7 +2,7 @@
 A set of tools to enable a better experience when using OutSystems Service Center.
 
 Main features:
-- Error highlight on eSpace/Solution publish
+- Error highlight on eSpace/Application/Solution publish
 - Fixed header
 - Bigger buttons (better hit area)
 
