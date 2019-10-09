@@ -6,6 +6,8 @@ Main features:
 - Fixed header
 - Bigger buttons (better hit area)
 
+![](img/service_center_screenshot_toolkit.png)
+
 ## Installation
 Use this files with the following Chrome extensions:
 - [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
