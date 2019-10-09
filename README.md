@@ -6,6 +6,7 @@ Main features:
 - fixed header
 - bigger buttons (better hit area)
 
+## Installation
 Use this files with the following Chrome extensions:
 - [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
