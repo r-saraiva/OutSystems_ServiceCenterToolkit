@@ -3,8 +3,8 @@ A set of tools to enable a better experience when using OutSystems Service Cente
 
 Main features:
 - Error highlight on eSpace/Solution publish
-- fixed header
-- bigger buttons (better hit area)
+- Fixed header
+- Bigger buttons (better hit area)
 
 ## Installation
 Use this files with the following Chrome extensions:
